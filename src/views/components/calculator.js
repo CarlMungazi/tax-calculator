@@ -49,7 +49,6 @@ const Calculator = {
             m('form.cf.bn.mt5.mb3.pa0', {
               onsubmit: function (e) {
                 e.preventDefault()
-                // Contact.save()
               }
             },
               m('label.gold-3.pa0.fw4.f7.mb1.black-80.db[for="salary"]', 'Enter your salary below'),
