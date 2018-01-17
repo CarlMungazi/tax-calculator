@@ -7,6 +7,6 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const root = document.body.querySelector('#root')
-const Splash = require('../src/views/splash');
+import Splash from '../src/views/splash'
 
 m.mount(root, Splash);

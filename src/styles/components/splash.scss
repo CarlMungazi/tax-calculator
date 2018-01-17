@@ -4,3 +4,33 @@
   padding-right: 1rem;
   padding-bottom: .85rem;
 }
+
+.bb-2 {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.bb-3 {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+} 
+
+.blue-4 { // darkest blue in chosen palette
+  color: #43A1FC
+}
+
+.gold-3 { // third-darkest gold in chosen palette
+  color: #FFBF61
+}
+
+.bg-gold-3 {
+  background-color: #FFBF61;
+}
+
+.b--gold-3 {
+  border-color: #FFBF61
+}
+
+.bg-gold-3:hover {
+  background-color: #FFD18E;
+}
